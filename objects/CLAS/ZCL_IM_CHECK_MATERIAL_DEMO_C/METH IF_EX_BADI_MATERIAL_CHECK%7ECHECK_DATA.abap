@@ -8,7 +8,5 @@
     IF ls_msehi IS NOT INITIAL.
       RAISE application_error.
     ENDIF.
-    IF ls_msehi IS INITIAL.
-      write 'empty'.
-    ENDIF.
+    
   ENDMETHOD.
