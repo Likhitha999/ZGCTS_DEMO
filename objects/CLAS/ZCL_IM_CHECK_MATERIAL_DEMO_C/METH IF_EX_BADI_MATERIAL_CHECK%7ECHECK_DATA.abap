@@ -9,4 +9,6 @@
       RAISE application_error.
     ENDIF.
 
+    write:'Checkdata'.
+
   ENDMETHOD.
