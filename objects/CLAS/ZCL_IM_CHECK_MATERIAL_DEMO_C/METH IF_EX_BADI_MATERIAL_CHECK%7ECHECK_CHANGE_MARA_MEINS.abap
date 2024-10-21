@@ -1,3 +1,3 @@
-  METHOD IF_EX_BADI_MATERIAL_CHECK~CHECK_CHANGE_MARA_MEINS.
-    write:'MARA TABLE'.
+  METHOD if_ex_badi_material_check~check_change_mara_meins.
+    WRITE:'MARA TABLE'.
   ENDMETHOD.
