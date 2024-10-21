@@ -1,5 +1,6 @@
   METHOD IF_EX_BADI_MATERIAL_CHECK~CHECK_DATA.
     " DEMO Example 01.25.24
+
     DATA ls_msehi TYPE zt006.
 
 
