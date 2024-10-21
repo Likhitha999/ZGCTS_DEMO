@@ -1,2 +1,2 @@
-  METHOD IF_EX_BADI_MATERIAL_CHECK~FRE_SUPPRESS_MARC_CHECK.
+  METHOD if_ex_badi_material_check~fre_suppress_marc_check.
   ENDMETHOD.

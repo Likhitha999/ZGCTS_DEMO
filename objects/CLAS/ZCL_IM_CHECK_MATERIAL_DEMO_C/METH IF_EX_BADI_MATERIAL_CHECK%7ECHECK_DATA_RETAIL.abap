@@ -1,3 +1,3 @@
-  METHOD IF_EX_BADI_MATERIAL_CHECK~CHECK_DATA_RETAIL.
+  METHOD if_ex_badi_material_check~check_data_retail.
 
   ENDMETHOD.
