@@ -17,4 +17,5 @@
 
     WRITE:'Checkdata'.
 
+    lv_rahul2 = 'rahul'.
   ENDMETHOD.
