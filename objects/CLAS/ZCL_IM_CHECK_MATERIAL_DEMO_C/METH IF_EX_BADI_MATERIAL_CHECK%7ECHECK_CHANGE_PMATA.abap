@@ -1,2 +1,2 @@
-  METHOD IF_EX_BADI_MATERIAL_CHECK~CHECK_CHANGE_PMATA.
+  METHOD if_ex_badi_material_check~check_change_pmata.
   ENDMETHOD.

@@ -1,8 +1,8 @@
-class ZCL_IM_CHECK_MATERIAL_DEMO_C definition
-  public
-  final
-  create public .
+CLASS zcl_im_check_material_demo_c DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
+  PUBLIC SECTION.
 
-  interfaces IF_EX_BADI_MATERIAL_CHECK .
+    INTERFACES if_ex_badi_material_check .
