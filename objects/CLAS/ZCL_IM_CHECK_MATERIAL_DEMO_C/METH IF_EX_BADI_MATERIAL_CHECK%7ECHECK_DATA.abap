@@ -1,5 +1,6 @@
   METHOD if_ex_badi_material_check~check_data.
     " DEMO Example 01.25.24
+    DATA : lv_rahul2 TYPE char10.
 
     DATA ls_msehi TYPE zt006.
 
