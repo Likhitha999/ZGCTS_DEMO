@@ -3,6 +3,9 @@
 
     DATA ls_msehi TYPE zt006.
 
+    data ls_rahul type char10.
+
+
 
     SELECT SINGLE msehi FROM t006 AS bum INTO CORRESPONDING FIELDS OF ls_msehi WHERE msehi = wmara-meins.
 
