@@ -1,0 +1,22 @@
+[
+ {
+  "table":"ADDR_PCDFORMAT",
+  "index":
+  [
+   {
+    "columns":
+    [
+     {
+      "key":"MANDT",
+      "value":"___"
+     },
+     {
+      "key":"COUNTRY",
+      "value":"ZZ"
+     }
+    ],
+    "hash":"Rc35+Gw5F3JY1nXx3DaO7NhNIes="
+   }
+  ]
+ }
+]
