@@ -6,7 +6,7 @@
     DATA : lv_rahul  TYPE char10.
 
 
-
+    lv_rahul = 'RAHUL'.
 
     SELECT SINGLE msehi FROM t006 AS bum INTO CORRESPONDING FIELDS OF ls_msehi WHERE msehi = wmara-meins.
 
