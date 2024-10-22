@@ -15,6 +15,6 @@
 
     WRITE:'Checkdata'.
 
-    "rahul pippalla 
+    "rahul
 
   ENDMETHOD.
