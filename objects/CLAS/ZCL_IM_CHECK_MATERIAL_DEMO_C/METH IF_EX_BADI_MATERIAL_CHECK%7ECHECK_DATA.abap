@@ -16,6 +16,6 @@
     WRITE:'Checkdata'.
 
 
-" rahul from repo 2
+" rahul from Remote repo 
 
   ENDMETHOD.
