@@ -15,6 +15,5 @@
 
     WRITE:'Checkdata'.
 
-    "rahul
 
   ENDMETHOD.
