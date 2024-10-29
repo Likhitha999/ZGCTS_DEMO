@@ -3,10 +3,6 @@
 
     DATA ls_msehi TYPE zt006.
 
-   
-
-
-
     SELECT SINGLE msehi FROM t006 AS bum INTO CORRESPONDING FIELDS OF ls_msehi WHERE msehi = wmara-meins.
 
     IF ls_msehi IS NOT INITIAL.
