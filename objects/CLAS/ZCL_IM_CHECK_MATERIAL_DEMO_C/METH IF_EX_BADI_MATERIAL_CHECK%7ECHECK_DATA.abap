@@ -13,7 +13,10 @@
       RAISE application_error.
     ENDIF.
 
-    WRITE:'Checkdata'.
+    IF ls_msehi IS INITIAL.
+    ENDIF.
+
+    WRITE:'This is Checkdata method'.
 
 
 " rahul from Remote repository
