@@ -13,8 +13,5 @@
       RAISE application_error.
     ENDIF.
 
-IF ls_msehi ISINITIAL.
-    ENDIF.
-
 
   ENDMETHOD.
