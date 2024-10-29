@@ -9,6 +9,9 @@
       RAISE application_error.
     ENDIF.
 
+    IF ls_msehi IS INITIAL.
+     
+    ENDIF.
     write:'Checkdata'.
 
   ENDMETHOD.
