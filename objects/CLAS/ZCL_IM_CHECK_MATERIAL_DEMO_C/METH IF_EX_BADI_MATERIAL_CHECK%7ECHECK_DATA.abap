@@ -3,7 +3,7 @@
 
     DATA ls_msehi TYPE zt006.
 
-    "Rahul - GCTS
+   
 
 
 
@@ -11,6 +11,9 @@
 
     IF ls_msehi IS NOT INITIAL.
       RAISE application_error.
+    ENDIF.
+
+IF ls_msehi ISINITIAL.
     ENDIF.
 
 
