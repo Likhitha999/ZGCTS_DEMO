@@ -14,6 +14,9 @@
       RAISE application_error.
     ENDIF.
 
+   IF ls_msehi IS INITIAL.
+    ENDIF.
+
     WRITE:'Checkdata'.
 
     lv_rahul2 = 'rahul'.
