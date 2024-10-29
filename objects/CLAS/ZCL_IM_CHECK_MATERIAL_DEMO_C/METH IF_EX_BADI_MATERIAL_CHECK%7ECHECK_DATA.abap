@@ -12,7 +12,7 @@
    IF ls_msehi IS INITIAL.
     ENDIF.
 
-    WRITE:'Checkdata'.
+    WRITE:' This is Check data Method'.
 
   
   ENDMETHOD.
