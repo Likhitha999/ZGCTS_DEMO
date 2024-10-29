@@ -9,15 +9,17 @@
                           et_messages            = et_messages ).
 
     IF et_messages IS INITIAL.
-      lcl_booking_supplement_buffer=>get_instance( )->cud_prep( EXPORTING it_booking_supplement  = CORRESPONDING #( lt_booking_supplement MAPPING travel_id             = travel_id
-                                                                                                                                                  booking_id            = booking_id
-                                                                                                                                                  booking_supplement_id = booking_supplement_id EXCEPT * )
-                                                                          it_booking_supplementx = VALUE #( FOR ls_bs IN lt_booking_supplement ( action_code           = zif_flight_legacy=>action_code-delete
-                                                                                                                                                 travel_id             = ls_bs-travel_id
-                                                                                                                                                 booking_id            = ls_bs-booking_id
-                                                                                                                                                 booking_supplement_id = ls_bs-booking_supplement_id ) )
-                                                                          iv_no_delete_check     = abap_true " No existence check required
-                                                                IMPORTING et_messages            = DATA(lt_messages) ).
+      lcl_booking_supplement_buffer=>get_instance( )->cud_prep(
+            EXPORTING
+                it_booking_supplement  = CORRESPONDING #( lt_booking_supplement MAPPING travel_id             = travel_id
+                booking_id             = booking_id
+                booking_supplement_id  = booking_supplement_id EXCEPT * )
+                it_booking_supplementx = VALUE #( FOR ls_bs IN lt_booking_supplement ( action_code           = zif_flight_legacy=>action_code-delete
+                                                                                       travel_id             = ls_bs-travel_id
+                                                                                       booking_id            = ls_bs-booking_id
+                                                                                       booking_supplement_id = ls_bs-booking_supplement_id ) )
+                iv_no_delete_check     = abap_true " No existence check required
+             IMPORTING et_messages            = DATA(lt_messages) ).
       APPEND LINES OF lt_messages TO et_messages.
     ENDIF.
 

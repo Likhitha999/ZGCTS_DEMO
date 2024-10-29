@@ -2,18 +2,18 @@
     CLASS-DATA go_instance TYPE REF TO zcl_flight_legacy_demo.
 
     CLASS-METHODS:
-      "! Calculation of Price <br/>
-      "!  <br/>
-      "! Price will be calculated using distance multiplied and occupied seats.<br/>
-      "! Depending on how many seats in percentage are occupied the formula <br/>
-      "! 3/400·x² + 25<br/>
-      "! will be applied.<br/>
-      "!   0% seats occupied leads to 25% of distance as price.<br/>
-      "!  75% seats occupied leads to 50% of distance as price.<br/>
-      "! 100% seats occupied leads to 100% of distance as price.<br/>
-      "! @parameter iv_seats_occupied_percent | occupied seats
-      "! @parameter iv_flight_distance | flight distance in kilometer
-      "! @parameter rv_price | calculated flight price
+  "! Calculation of Price <br/>
+  "!  <br/>
+  "! Price will be calculated using distance multiplied and occupied seats.<br/>
+  "! Depending on how many seats in percentage are occupied the formula <br/>
+  "! 3/400·x² + 25<br/>
+  "! will be applied.<br/>
+  "!   0% seats occupied leads to 25% of distance as price.<br/>
+  "!  75% seats occupied leads to 50% of distance as price.<br/>
+  "! 100% seats occupied leads to 100% of distance as price.<br/>
+  "! @parameter iv_seats_occupied_percent | occupied seats
+  "! @parameter iv_flight_distance | flight distance in kilometer
+  "! @parameter rv_price | calculated flight price
       calculate_flight_price
         IMPORTING
           iv_seats_occupied_percent TYPE zplane_seats_occupied
