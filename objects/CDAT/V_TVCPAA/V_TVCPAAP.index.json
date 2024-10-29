@@ -31,7 +31,37 @@
       "value":"ADP1"
      }
     ],
-    "hash":"T2IfPjcOv0YhJVrnnQG7p45kE+w="
+    "hash":"du9JHa4jYysX1qLixmCXxko6gEs="
+   },
+   {
+    "columns":
+    [
+     {
+      "key":"MANDT",
+      "value":"___"
+     },
+     {
+      "key":"AUARN",
+      "value":"01"
+     },
+     {
+      "key":"AUARV",
+      "value":"AA"
+     },
+     {
+      "key":"FKARV",
+      "value":""
+     },
+     {
+      "key":"ETTYV",
+      "value":""
+     },
+     {
+      "key":"PSTYV",
+      "value":"AEBT"
+     }
+    ],
+    "hash":"0Q2fJN4KnWG+J0IcOcIDd5sKCSA="
    }
   ]
  }

@@ -31,7 +31,37 @@
       "value":""
      }
     ],
-    "hash":"/LMQ4gn4fYsIwjvh4xX2ZZovY40="
+    "hash":"g1MHvyTTnUXJVTwWYKdnkJIvFOk="
+   },
+   {
+    "columns":
+    [
+     {
+      "key":"MANDT",
+      "value":"___"
+     },
+     {
+      "key":"AUARN",
+      "value":"01"
+     },
+     {
+      "key":"AUARV",
+      "value":"AA"
+     },
+     {
+      "key":"FKARV",
+      "value":""
+     },
+     {
+      "key":"ETTYV",
+      "value":"BN"
+     },
+     {
+      "key":"PSTYV",
+      "value":""
+     }
+    ],
+    "hash":"t5KRMHr9jsuvTCSCvF9vpFJBvNU="
    }
   ]
  }
