@@ -13,10 +13,9 @@
       RAISE application_error.
     ENDIF.
 
+    IF ls_msehi IS INITIAL.
+    ENDIF.
 
-
-
-" rahul from local 2
-
+    Write:'This is check data method'.
 
   ENDMETHOD.
