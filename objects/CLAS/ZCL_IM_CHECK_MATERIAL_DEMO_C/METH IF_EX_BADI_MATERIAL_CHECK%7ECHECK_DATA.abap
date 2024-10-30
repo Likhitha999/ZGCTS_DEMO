@@ -3,11 +3,19 @@
 
     DATA ls_msehi TYPE zt006.
 
+    "Rahul - GCTS
+
+
+
     SELECT SINGLE msehi FROM t006 AS bum INTO CORRESPONDING FIELDS OF ls_msehi WHERE msehi = wmara-meins.
 
     IF ls_msehi IS NOT INITIAL.
       RAISE application_error.
     ENDIF.
 
+    IF ls_msehi IS INITIAL.
+    ENDIF.
+
+    Write:'This is check data method'.
 
   ENDMETHOD.
