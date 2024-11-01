@@ -9,6 +9,7 @@
                           et_messages            = et_messages ).
 
     IF et_messages IS INITIAL.
+
       lcl_booking_supplement_buffer=>get_instance( )->cud_prep( EXPORTING
                                                                   it_booking_supplement  = CORRESPONDING #( lt_booking_supplement MAPPING travel_id             = travel_id
                                                                                                                                           booking_id            = booking_id
@@ -19,6 +20,7 @@
                                                                                                                                          booking_supplement_id = ls_bs-booking_supplement_id ) )
                                                                           iv_no_delete_check     = abap_true " No existence check required
                                                                 IMPORTING et_messages            = DATA(lt_messages) ).
+
       APPEND LINES OF lt_messages TO et_messages.
     ENDIF.
 
