@@ -4,7 +4,7 @@
   "data":
   [
    {
-    "TYPENAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "TYPENAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "STATE":"A",
     "TYPEKIND":"CLAS"
    }
@@ -15,9 +15,9 @@
   "data":
   [
    {
-    "CLSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "CLSTYPE":0,
-    "UUID":"73Z70FrvHu+h3282sSI/XA==",
+    "UUID":"LZMBybEFHu+j9Pe2Ei8/UA==",
     "REMOTE":""
    }
   ]
@@ -27,7 +27,7 @@
   "data":
   [
    {
-    "CLSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "VERSION":1,
     "CATEGORY":0,
     "EXPOSURE":2,
@@ -71,7 +71,7 @@
   "data":
   [
    {
-    "CLSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "LANGU":"E",
     "DESCRIPT":"test"
    }
@@ -82,7 +82,7 @@
   "data":
   [
    {
-    "CLSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "REFCLSNAME":"IF_EX_BADI_MATERIAL_CHECK",
     "VERSION":1,
     "STATE":1,
@@ -107,10 +107,10 @@
    {
     "PGMID":"R3TR",
     "OBJECT":"CLAS",
-    "OBJ_NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "OBJ_NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "KORRNUM":"",
     "SRCSYSTEM":"...",
-    "AUTHOR":"ROPL058",
+    "AUTHOR":"RAHUL",
     "SRCDEP":"",
     "DEVCLASS":"ZGCTS_DEMO",
     "GENFLAG":"",
@@ -124,8 +124,8 @@
     "CRELEASE":"",
     "DELFLAG":"",
     "TRANSLTTXT":"",
-    "CREATED_ON":"2024-10-10",
-    "CHECK_DATE":"2024-10-10",
+    "CREATED_ON":"2024-10-21",
+    "CHECK_DATE":"2024-10-21",
     "CHECK_CFG":""
    }
   ]
@@ -135,43 +135,43 @@
   "data":
   [
    {
-    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "METHODINDX":0,
     "METHODNAME":" ",
     "FLAGS":0
    },
    {
-    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "METHODINDX":1,
     "METHODNAME":"IF_EX_BADI_MATERIAL_CHECK~CHECK_CHANGE_MARA_MEINS",
     "FLAGS":0
    },
    {
-    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "METHODINDX":2,
     "METHODNAME":"IF_EX_BADI_MATERIAL_CHECK~CHECK_CHANGE_PMATA",
     "FLAGS":0
    },
    {
-    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "METHODINDX":3,
     "METHODNAME":"IF_EX_BADI_MATERIAL_CHECK~CHECK_DATA",
     "FLAGS":0
    },
    {
-    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "METHODINDX":4,
     "METHODNAME":"IF_EX_BADI_MATERIAL_CHECK~CHECK_DATA_RETAIL",
     "FLAGS":0
    },
    {
-    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "METHODINDX":5,
     "METHODNAME":"IF_EX_BADI_MATERIAL_CHECK~CHECK_MASS_MARC_DATA",
     "FLAGS":0
    },
    {
-    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C",
+    "CLASSNAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11",
     "METHODINDX":6,
     "METHODNAME":"IF_EX_BADI_MATERIAL_CHECK~FRE_SUPPRESS_MARC_CHECK",
     "FLAGS":0
@@ -183,72 +183,7 @@
   "data":
   [
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CCAU",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"ROPL058",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CCDEF",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"ROPL058",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CCIMP",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"ROPL058",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CCMAC",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"ROPL058",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CI",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"ROPL058",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CM001",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CCAU",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
@@ -261,7 +196,7 @@
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CM002",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CCDEF",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
@@ -274,20 +209,7 @@
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CM003",
-    "VARCL":"X",
-    "DBAPL":"S",
-    "DBNA":"D$",
-    "SUBC":"I",
-    "APPL":"S",
-    "UNAM":"ROPL058",
-    "RMAND":"100",
-    "FIXPT":"X",
-    "LDBNAME":"D$S",
-    "UCCHECK":"X"
-   },
-   {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CM004",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CCIMP",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
@@ -300,7 +222,7 @@
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CM005",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CCMAC",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
@@ -313,7 +235,7 @@
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CM006",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CI",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
@@ -326,46 +248,124 @@
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CO",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CM001",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
     "APPL":"S",
-    "UNAM":"ROPL058",
+    "UNAM":"RAHUL",
     "RMAND":"100",
     "FIXPT":"X",
     "LDBNAME":"D$S",
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CP",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CM002",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"RAHUL",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CM003",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"RAHUL",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CM004",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"RAHUL",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CM005",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"RAHUL",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CM006",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"RAHUL",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CO",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "UNAM":"RAHUL",
+    "RMAND":"100",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CP",
     "EDTX":"X",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"K",
     "APPL":"S",
-    "UNAM":"ROPL058",
+    "UNAM":"RAHUL",
     "RMAND":"100",
     "FIXPT":"X",
     "LDBNAME":"D$S",
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CT",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CT",
     "DBAPL":"S",
     "DBNA":"D$",
     "SUBC":"I",
     "APPL":"S",
-    "UNAM":"ROPL058",
+    "UNAM":"RAHUL",
     "RMAND":"100",
     "FIXPT":"X",
     "LDBNAME":"D$S",
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_C==CU",
+    "NAME":"ZCL_IM_CHECK_MATERIAL_DEMO_11=CU",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
