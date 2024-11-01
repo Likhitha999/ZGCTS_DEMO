@@ -1,6 +1,4 @@
   METHOD _resolve_attribute.
-
-
     CLEAR rv_symsgv.
     CASE iv_attrname.
       WHEN ''.
