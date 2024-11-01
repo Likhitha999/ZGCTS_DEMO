@@ -1,5 +1,5 @@
   METHOD _resolve_attribute.
-   " DEMO 1
+   " DEMO
     CLEAR rv_symsgv.
     CASE iv_attrname.
       WHEN ''.
