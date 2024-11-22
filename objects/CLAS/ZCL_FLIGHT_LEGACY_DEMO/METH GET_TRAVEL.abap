@@ -1,6 +1,7 @@
   METHOD get_travel.
     CLEAR: es_travel, et_booking, et_booking_supplement, et_messages.
 
+    "TODO: change lt_tranvel value
     IF iv_travel_id IS INITIAL.
       APPEND NEW zcx_flight_legacy( textid = zcx_flight_legacy=>travel_no_key ) TO et_messages.
       RETURN.
