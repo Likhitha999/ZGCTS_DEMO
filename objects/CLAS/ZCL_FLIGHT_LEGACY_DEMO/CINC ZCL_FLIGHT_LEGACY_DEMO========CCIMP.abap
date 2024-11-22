@@ -1149,6 +1149,7 @@ CLASS lcl_booking_buffer IMPLEMENTATION.
     CLEAR et_booking.
 
     CHECK it_booking IS NOT INITIAL.
+    "TODO: select only few fields.
 
     SELECT * FROM zbooking FOR ALL ENTRIES IN @it_booking WHERE travel_id  = @it_booking-travel_id
       INTO TABLE @et_booking ##SELECT_FAE_WITH_LOB[DESCRIPTION]. "#EC CI_ALL_FIELDS_NEEDED "#EC CI_SEL_DEL
