@@ -1,4 +1,4 @@
   method TEST.
-    write:'test class - s4d test 2'.
+    write:'test class S4D'.
 
   endmethod.
