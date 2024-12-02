@@ -1,4 +1,4 @@
   method TEST.
-    write:'modified in GIT'.
+    write:'modified in S4D'.
 
   endmethod.
