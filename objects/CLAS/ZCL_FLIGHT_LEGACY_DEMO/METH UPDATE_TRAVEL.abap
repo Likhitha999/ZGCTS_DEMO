@@ -4,7 +4,7 @@
     CLEAR et_booking_supplement.
     CLEAR et_messages.
 
-    " Travel
+    " Travel Flight
     IF is_travel-travel_id IS INITIAL.
       APPEND NEW zcx_flight_legacy( textid = zcx_flight_legacy=>travel_no_key ) TO et_messages.
       RETURN.
