@@ -1,4 +1,4 @@
   method TEST.
-    write:'modified in S4D'.
+    write:'GCTS TEST CLASS '.
 
   endmethod.
