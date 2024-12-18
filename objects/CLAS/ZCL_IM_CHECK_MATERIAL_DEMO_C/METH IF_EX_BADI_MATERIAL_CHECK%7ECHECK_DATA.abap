@@ -16,6 +16,6 @@
     IF ls_msehi IS INITIAL.
     ENDIF.
 
-    Write:'This is check data method'.
+    Write:'This is s4d modified dec 18'.
 
   ENDMETHOD.
