@@ -1,4 +1,4 @@
   method TEST.
-    write:'GCTS TEST CLASS 2'.
+    write:'modified in local'.
 
   endmethod.
