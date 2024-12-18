@@ -1,4 +1,4 @@
   method TEST.
-    write:'modified in local'.
+    write:'modified in git qa branch'.
 
   endmethod.
