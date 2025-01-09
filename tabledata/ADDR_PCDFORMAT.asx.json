@@ -5,6 +5,11 @@
   [
    {
     "MANDT":"___",
+    "COUNTRY":"SO",
+    "POSTAL_CODE_FORMAT":"ITLAY"
+   },
+   {
+    "MANDT":"___",
     "COUNTRY":"ZZ",
     "POSTAL_CODE_FORMAT":"INDIA"
    }
