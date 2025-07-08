@@ -1,4 +1,5 @@
   method TEST.
-    write:'test class - s4d test 2'.
+    write:'modified in local S4D system'.
+    write:'pandora test'.
 
   endmethod.
